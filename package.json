@@ -1,0 +1,28 @@
+{
+  "name": "tuiter-node-server-app",
+  "version": "1.0.0",
+  "description": "Node.js HTTP web server for Tuiter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rehmaund/tuiter-node-server-app.git"
+  },
+  "keywords": [
+    "Node",
+    "REST",
+    "Server",
+    "HTTP"
+  ],
+  "author": "Rebecca Maunder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rehmaund/tuiter-node-server-app/issues"
+  },
+  "homepage": "https://github.com/rehmaund/tuiter-node-server-app#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
