@@ -1,5 +1,4 @@
 import * as tuitsDao from '../../tuits/tuits-dao.js';
-
 export default (app) => {
     app.post('/api/tuits', createTuit);
     app.get('/api/tuits', findTuits);
