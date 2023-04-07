@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-const DB_CONNECT_STRING = process.env.DB_CONNECTION_STRING
+const DB_CONNECT_STRING = process.env.DB_CONNECT_STRING
     || 'mongodb://localhost:27017/tuiter'
 
 mongoose.connect(DB_CONNECT_STRING);
