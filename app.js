@@ -1,6 +1,9 @@
 import mongoose from "mongoose";
-const DB_CONNECT_STRING = process.env.DB_CONNECT_STRING
+const DB_CONNECT_STRING = 'mongodb+srv://rehmaund:mochiwebdev144@cluster0.5obzn7e.mongodb.net/tuiter?retryWrites=true&w=majority'
+
+    /* process.env.DB_CONNECT_STRING
     || 'mongodb://localhost:27017/tuiter'
+*/
 
 mongoose.connect(DB_CONNECT_STRING);
 import express from 'express';
