@@ -1,8 +1,8 @@
 import mongoose from "mongoose";
-const DB_CONNECTION_STRING = 'mongodb://localhost:27017/tuiter' || process.env.DB_CONNECTION_STRING
+const DB_CONNECT_STRING = 'mongodb://localhost:27017/tuiter' || process.env.DB_CONNECTION_STRING
 //const DB_CONNECTION_STRING = 'mongodb+srv://rmaunder4:mochiwebdev144@cluster0.bwn0cio.mongodb.net/tuiter?retryWrites=true&w=majority'
 //const DB_CONNECTION_STRING = 'mongodb+srv://rmaunder4:mochiwebdev144@cluster1.hybi86i.mongodb.net/tuiter?retryWrites=true&w=majority'
-mongoose.connect(DB_CONNECTION_STRING);
+mongoose.connect(DB_CONNECT_STRING);
 import express from 'express';
 import cors from 'cors';
 import HelloController
